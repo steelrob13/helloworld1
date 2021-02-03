@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
     @RequestMapping("/")
     public String index(){
-        return "Hello World from intellij!";
+        return "Hello World from intellij, 1!";
     }
 }
